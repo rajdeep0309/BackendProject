@@ -4,7 +4,8 @@ class ApiResponse{
         this.success=success
         this.data=data
         this.message=message
-        
+        console.log(this.message) 
     }
+    
 }
 export default ApiResponse;
